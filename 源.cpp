@@ -55,15 +55,19 @@ int main()
 	s1.PushBack(5);
 	s1.PushBack(2);
 	s1.PushBack(3);
-	s1.PushBack(2);
 	s1.PushBack(1);
+	s1.PushBack(5);
 	s1.PushBack(6);
 	s1.PushBack(7);
-	s1.PushBack(9);
+	s1.PushBack(8);
 	s1.print();
 
 	ListNode *num = s1.find(9);
 
+	s1.DeleteNodeNumone(&s1.m_pHead, num);
+	s1.print();
+	
+	num = s1.find(1);
 	s1.DeleteNodeNumone(&s1.m_pHead, num);
 	s1.print();
 

@@ -109,7 +109,7 @@ public:
 			cout<<begin->m_data<<"->";
 			begin = begin->m_pNext;
 		}
-		cout<<"NUll"<<endl;
+		cout<<"NULL"<<endl;
 	}
 public:
 	ListNode *m_pHead;//头节点指针
