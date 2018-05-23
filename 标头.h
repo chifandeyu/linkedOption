@@ -112,8 +112,8 @@ public:
 		cout<<"NUll"<<endl;
 	}
 public:
-	ListNode *m_pHead;
-	ListNode *m_pTail;
+	ListNode *m_pHead;//头节点指针
+	ListNode *m_pTail;//尾节点指针
 };
 
 #endif //_HEAD_H_
