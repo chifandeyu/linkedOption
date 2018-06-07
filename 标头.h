@@ -2,7 +2,9 @@
 #define _HEAD_H_
 
 typedef int DataType;
-
+/*
+    时间复杂度分析: 如果删除的是末节点,且节点有n(n>1)个,那么时间复杂度是O(1), 对于尾节点,是O(n),综合起来 就是[(n-1)O(1) + O(n)] / n = O(1),符合要求
+*/
 class ListNode
 {
 public:
